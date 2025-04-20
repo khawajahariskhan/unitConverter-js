@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+    font-family: "Poppins", "sans-serif";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2em;
+    padding: 2em;
+    border: 2px solid black;
+    box-shadow: 1px 6px 12px 7px;
+}
+input , select{
+    margin: 1em;
+    width: 60%;
+    height: 2.5em;
+    border-radius: 50px;
+}
+#convert:hover{
+    cursor: pointer;
+}
